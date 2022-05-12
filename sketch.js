@@ -18,6 +18,11 @@ function draw() {
 
   drawLines();
 
+  function preload(){
+
+    for (let i = 0; i <= 1; i++){
+      clouds[i] = loadImage("assets/cloud png tiny.jpeg")
+
   if (keyPressed)
     triangle(200, 175, 185, 210, 220, 215)
     line(width * .489, height * 0.53, width * 0.5, height * 0.58);
