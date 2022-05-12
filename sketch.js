@@ -43,6 +43,11 @@ function drawLines(){
 
 }
 
+function drawClouds(){
+  fill(228, 184, 207)
+  eclipse(30, 50, 50, 70);
+}
+
 function keyPressed(){
 
   if (key === 'd'){
