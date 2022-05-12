@@ -1,5 +1,8 @@
 function setup() {
   createCanvas(400, 400);
+
+  let value = 0;
+  fill(value);
 }
 
 function draw() {
@@ -26,6 +29,8 @@ function draw() {
   textSize(15);
   textWrap(WORD);
   text('Hm? Screaming? Not sure what you are referring to.', 290, 225, 100);
+
+  mouseClicked();
 
   if (keyPressed)
     triangle(200, 175, 185, 210, 220, 215)
@@ -89,6 +94,14 @@ function drawTown(){
   rect(320, 345, 25, 400);
   rect(350, 370, 35, 400);
   pop();
+}
+
+function mouseClicked() {
+  if (drawTown === 129, 87, 177) {
+    value = 255;
+  } else {
+    value = 129, 87, 177;
+  }
 }
 
 function keyPressed(){
