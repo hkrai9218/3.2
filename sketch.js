@@ -47,3 +47,8 @@ function keyPressed(){
   return false;
 
 }
+
+function preload(){
+
+  for (let i = 0; i <= 1; i++){
+    clouds[i] = loadImage("assets/cloud png tiny.jpeg")
