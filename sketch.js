@@ -15,6 +15,10 @@ function draw() {
 
   drawTown();
 
+  let s = 'Here you are, you little dream self you.';
+  fill(255);
+  text(s, 175, 50, 70, 80);
+
   if (keyPressed)
     triangle(200, 175, 185, 210, 220, 215)
     line(width * .489, height * 0.53, width * 0.5, height * 0.58);
