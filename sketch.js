@@ -17,7 +17,7 @@ function draw() {
 
   let s = 'Here you are, you little dream self you.';
   fill(255);
-  text(s, 175, 50, 70, 80);
+  text(s, 175, 30, 70, 80);
 
   if (keyPressed)
     triangle(200, 175, 185, 210, 220, 215)
