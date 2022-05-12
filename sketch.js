@@ -18,6 +18,8 @@ function draw() {
 
   drawLines();
 
+  drawClouds();
+
   function preload(){
 
     for (let i = 0; i <= 1; i++){
@@ -44,8 +46,8 @@ function drawLines(){
 }
 
 function drawClouds(){
-  fill(228, 184, 207)
-  eclipse(30, 50, 50, 70);
+  fill(228, 184, 207);
+  ellipse(30, 50, 50, 70);
 }
 
 function keyPressed(){
