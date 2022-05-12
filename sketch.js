@@ -33,8 +33,12 @@ function drawLines(){
 
 function drawClouds(){
   push();
+  noStroke();
   fill(228, 184, 207);
   ellipse(56, 46, 55, 55);
+  ellipse(60, 74, 84, 67);
+  ellipse(100, 50, 60, 85);
+  ellipse(120, 90, 100, 60);
   pull();
 }
 
