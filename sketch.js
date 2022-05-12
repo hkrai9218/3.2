@@ -7,7 +7,7 @@ let clouds = [];
 function preload(){
 
   for (let i = 0; i <= 1; i++){
-    clouds[i] = loadImage("assets/cloud png tiny.jpeg")
+    clouds[i] = loadImage("assets/cloud_png_tiny.jpeg")
   }
 }
 
