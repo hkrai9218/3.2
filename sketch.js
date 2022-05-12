@@ -11,6 +11,8 @@ function draw() {
 
   drawClouds();
 
+  drawRightClouds();
+
   if (keyPressed)
     triangle(200, 175, 185, 210, 220, 215)
     line(width * .489, height * 0.53, width * 0.5, height * 0.58);
@@ -41,6 +43,16 @@ function drawClouds(){
   ellipse(120, 90, 100, 60);
   pull();
 }
+
+function drawRightClouds(){
+  push();
+  noStroke();
+  fill(228, 184, 207);
+  ellipse(364, 40, 70, 70);
+  ellipse(387, 45, 45, 67);
+  ellipse(330, 75, 85, 85);
+  ellipse(380, 110, 300, 100);
+  pop();
 
 function keyPressed(){
 
