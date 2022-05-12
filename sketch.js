@@ -13,6 +13,8 @@ function draw() {
 
   drawRightClouds();
 
+  drawTown();
+
   if (keyPressed)
     triangle(200, 175, 185, 210, 220, 215)
     line(width * .489, height * 0.53, width * 0.5, height * 0.58);
@@ -53,6 +55,29 @@ function drawRightClouds(){
   ellipse(330, 75, 85, 85);
   ellipse(380, 110, 300, 100);
   pop();
+
+function drawTown(){
+  push();
+  noStroke();
+  fill(129, 87, 177);
+  rect(25, 370, 15, 400);
+  rect(35, 390, 40, 400);
+  rect(40, 325, 20, 400);
+  rect(60, 370, 15, 400);
+  rect(75, 390, 40, 400);
+  rect(80, 330, 20, 400);
+  rect(90, 370, 15, 400);
+  rect(160, 350, 40, 400);
+  rect(120, 290, 40, 400);
+  rect(180, 265, 45, 400);
+  rect(240, 300, 25, 400);
+  rect(230, 350, 20, 400);
+  rect(300, 360, 25, 400);
+  rect(267, 375, 30, 400);
+  rect(320, 345, 25, 400);
+  rect(350, 370, 35, 400);
+  pop();
+}
 
 function keyPressed(){
 
