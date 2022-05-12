@@ -32,8 +32,10 @@ function drawLines(){
 }
 
 function drawClouds(){
+  push();
   fill(228, 184, 207);
   ellipse(56, 46, 55, 55);
+  pull();
 }
 
 function keyPressed(){
