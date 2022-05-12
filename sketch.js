@@ -2,15 +2,6 @@ function setup() {
   createCanvas(400, 400);
 }
 
-let clouds = [];
-
-function preload(){
-
-  for (let i = 0; i <= 1; i++){
-    clouds[i] = loadImage("assets/cloud png tiny.jpeg")
-  }
-}
-
 function draw() {
   background(206, 184, 228);
 
